@@ -6,7 +6,7 @@
 
 自己部署到 [Vercel](https://vercel.com)上
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/IDpeace9527/NextJSBase-i18n)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/IDpeace9527/nextjsbase-i18n)
 
 
 # 二、功能包含：
@@ -37,8 +37,8 @@ const t = useTranslations('Home');<br>
 
 # 五、赞赏或者交个朋友
 <div style="display: flex; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/IDpeace9527/NextJSBase-i18n/main/public/images/xuejuzanshang.jpg" width="300" alt="WeChat" />
-  <img src="https://raw.githubusercontent.com/IDpeace9527/NextJSBase-i18n/main/public/images/xuejuweixin.jpg" width="300" alt="WeChat" />
+  <img src="https://raw.githubusercontent.com/IDpeace9527/nextjsbase-i18n/main/public/images/xuejuzanshang.jpg" width="300" alt="WeChat" />
+  <img src="https://raw.githubusercontent.com/IDpeace9527/nextjsbase-i18n/main/public/images/xuejuweixin.jpg" width="300" alt="WeChat" />
 </div>
 
 # 六、特别感谢
