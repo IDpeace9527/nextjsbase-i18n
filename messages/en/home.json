@@ -2,7 +2,10 @@
     "title": "NextJSBase-i18n",
     "description": "NextJSBase-i18n",
     "readme": {
-        "title1": "1. Demo",
+        "githubTitle": "1. GitHub Repository",
+        "githubLink": "GitHub Repository",
+        "githubUrl": "https://github.com/IDpeace9527/nextjsbase-i18n",
+        "title1": "2. Demo",
         "demoLink": "Demo",
         "demoUrl": "https://nextjsbase-i18n.vercel.app/",
         "deployTitle": "Deploy to Vercel by Yourself",
