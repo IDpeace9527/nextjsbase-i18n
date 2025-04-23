@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .tight-spacing {
+    margin-bottom: 1px !important;
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+  details[open] summary::-webkit-details-marker {
+    transform: rotate(90deg);
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary {
+    list-style: none;
+  }
+}
+
+.language-notice {
+  @apply fixed top-0 left-0 right-0 z-50;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+/* 确保没有隐藏内容的样式 */
+.text-gray-300 {
+  color: rgb(209 213 219);
+}
+
+.list-disc {
+  list-style-type: disc;
+}

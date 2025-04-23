@@ -1,0 +1,22 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, zh {简体中文} en {English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "",
+        "href": "",
+        "title": ""
+      }
+    }
+  }
+}

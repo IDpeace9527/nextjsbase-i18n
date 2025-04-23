@@ -1,0 +1,25 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, zh {简体中文} en {English} other {未知}}"
+  },
+  "Manifest": {
+    "name": ""
+  },
+  "Navigation": {
+    "home": "首页"
+  },
+  "NotFoundPage": {
+    "description": "请双击下面的链接地址按钮或者或者用导航栏进入其他页面",
+    "title": "没有找到相关页面"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "",
+        "href": "",
+        "title": ""
+      }
+    }
+  }
+}

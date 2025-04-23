@@ -1,0 +1,22 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, zh {简体中文} en {English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "demo": "Inner Demo"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  }, 
+  "Footer": {
+    "description": "NextJSBase-i18n",
+    "links": "Quick Links",
+    "home": "Home",
+    "contact": "Contact Us",
+    "rights": "All rights reserved.",
+    "simple": "NextJSBase-i18n"
+  }
+}

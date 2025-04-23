@@ -1,0 +1,22 @@
+{
+  "LocaleSwitcher": {
+    "label": "切换语言",
+    "locale": "{locale, select, zh {简体中文} en {English} other {未知}}"
+  },
+  "Navigation": {
+    "home": "首页",
+    "demo": "内页Demo"
+  },
+  "NotFoundPage": {
+    "description": "请检查浏览器地址栏或使用导航前往已知页面。",
+    "title": "页面未找到"
+  },
+  "Footer": {
+    "description": "NextJSBase-i18n",
+    "links": "快速链接",
+    "home": "首页",
+    "contact": "联系我们",
+    "rights": "版权所有。",
+    "simple": "NextJSBase-i18n"
+  }
+}
