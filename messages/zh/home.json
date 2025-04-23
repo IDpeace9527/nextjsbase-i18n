@@ -2,13 +2,16 @@
     "title": "NextJSBase-i18n中文页面",
     "description": "NextJSBase-i18n中文页面",
     "readme": {
-        "title1": "一、Demo演示地址",
+        "githubTitle": "一、GitHub仓库地址",
+        "githubLink": "GitHub仓库",
+        "githubUrl": "https://github.com/IDpeace9527/nextjsbase-i18n",
+        "title1": "二、Demo演示地址",
         "demoLink": "Demo",
         "demoUrl": "https://nextjsbase-i18n.vercel.app/",
         "deployTitle": "自己部署到 Vercel 上",
         "vercelUrl": "https://vercel.com",
         "deployButtonUrl": "https://vercel.com/new/clone?repository-url=https://github.com/IDpeace9527/NextJSBase-i18n",
-        "title2": "二、功能包含：",
+        "title2": "三、功能包含：",
         "features": [
             "NextJS项目一键部署到vercel使用",
             "多语言框架（用的是NextJS自带的多语言框架）",
@@ -17,12 +20,12 @@
             "canonical 一键配置即可使用",
             "网站Title一键配置，开源代码可以一键部署到vercel"
         ],
-        "title3": "三、好处：",
+        "title3": "四、好处：",
         "benefits": [
             "减少NextJS多语言学习成本、框架调研成本，开箱即用",
             "节省安装基础包和一些配置的时间。"
         ],
-        "title4": "四、使用方式：",
+        "title4": "五、使用方式：",
         "usage": [
             "在 src\\config\\site.ts 中修改好相关配置",
             "在 public 目录下，修改网站图标和 sitemap.xml 文件",
@@ -34,10 +37,10 @@
         "translationStep2": "<2>、然后在对应页面（一般是page.tsx）加入",
         "translationCode2": "const t = useTranslations('Home');",
         "translationNote2": "获取翻译对象",
-        "title5": "五、赞赏或者交个朋友",
+        "title5": "六、赞赏或者交个朋友",
         "donationImage": "https://raw.githubusercontent.com/IDpeace9527/NextJSBase-i18n/main/public/images/xuejuzanshang.jpg",
         "wechatImage": "https://raw.githubusercontent.com/IDpeace9527/NextJSBase-i18n/main/public/images/xuejuweixin.jpg",
-        "title6": "六、特别感谢",
+        "title6": "七、特别感谢",
         "thanksText": "感谢哥飞教我Google SEO,微信搜索框输入[哥飞],即可找到相关微信公众号，微信公众号里面有大量 Google SEO 干货，值得关注"
     }
 }

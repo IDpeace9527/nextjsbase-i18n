@@ -18,6 +18,19 @@ export default function IndexPage({params: {locale}}: Props) {
   return (
     <main className="min-h-screen bg-white p-4 sm:p-8"> {/* 调整间距 */}
       <div className="max-w-4xl mx-auto bg-gray-100 p-6 rounded-lg shadow-md font-mono text-sm text-gray-800">
+        {/* GitHub仓库地址 */}
+        <h2 className="text-xl font-bold mb-4">{readme.githubTitle}</h2>
+        <p className="mb-4">
+          <a 
+            href={readme.githubUrl} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-blue-600 hover:underline"
+          >
+            {readme.githubLink}
+          </a>
+        </p>
+        
         {/* 一、Demo演示地址 */}
         <h2 className="text-xl font-bold mb-4">{readme.title1}</h2>
         <p className="mb-4">
