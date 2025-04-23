@@ -1,6 +1,6 @@
 # 一、Demo演示地址
 
-[Demo](https://nextjsbase-neon.vercel.app/)
+[Demo](https://nextjsbase-i18n.vercel.app/)
 
 ## 自己部署
 
