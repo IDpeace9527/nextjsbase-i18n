@@ -4,7 +4,7 @@
     "readme": {
         "title1": "一、Demo演示地址",
         "demoLink": "Demo",
-        "demoUrl": "https://nextjsbase-neon.vercel.app/",
+        "demoUrl": "https://nextjsbase-i18n.vercel.app/",
         "deployTitle": "自己部署到 Vercel 上",
         "vercelUrl": "https://vercel.com",
         "deployButtonUrl": "https://vercel.com/new/clone?repository-url=https://github.com/IDpeace9527/NextJSBase-i18n",
