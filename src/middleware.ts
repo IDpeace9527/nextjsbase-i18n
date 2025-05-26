@@ -14,6 +14,6 @@ export const config = {
 
     // Enable redirects that add missing locales
     // (e.g. `/pathnames` -> `/en/pathnames`)
-    '/((?!_next|_vercel|.*\\..*).*)'
+    '/((?!api/|_next/|_vercel/|.*\\..*).*)' // 添加了 api/ 以排除 API 路由
   ]
 };

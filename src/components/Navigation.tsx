@@ -2,6 +2,7 @@ import {useTranslations} from 'next-intl';
 import LocaleSwitcher from './LocaleSwitcher';
 import NavigationLink from './NavigationLink';
 import { siteConfig } from '@/config/site';
+import { GoogleLoginButton } from './auth/GoogleLoginButton';
 
 export default function Navigation() {
   const t = useTranslations('Navigation');
@@ -14,7 +15,10 @@ export default function Navigation() {
           <NavigationLink href="/">{t('home')}</NavigationLink>
           <NavigationLink href="/demo">{t('demo')}</NavigationLink>
         </div>
-        {isI18nEnabled && <LocaleSwitcher />}
+        <div className="flex items-center gap-4">
+          {isI18nEnabled && <LocaleSwitcher />}
+          {siteConfig.auth.googleLoginEnabled === 1 && <GoogleLoginButton />}
+        </div>
       </nav>
     </div>
   );

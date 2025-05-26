@@ -21,5 +21,10 @@ export const siteConfig = {
     enabled: 1, // 0: 关闭多语言, 1: 启用多语言
     defaultLocale: "en", // 默认语言
     locales: ["zh", "en"] // 支持的语言列表
+  },
+
+  // 认证功能配置
+  auth: {
+    googleLoginEnabled: 1, // 0: 关闭 Google 登录, 1: 启用 Google 登录
   }
 };
