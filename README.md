@@ -16,7 +16,7 @@
 3、多语言框架翻译文件可以分成多个文件，方便管理并且加载性能更好<br>
 3、Google-Analytics 配置ID即可使用<br>
 4、canonical 一键配置即可使用<br>
-5、网站Title一键配置6、开源代码可以一键部署到vercel<br>
+5、网站Title一键配置
 
 
 # 三、好处： 
