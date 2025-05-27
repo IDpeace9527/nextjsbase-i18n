@@ -1,3 +1,6 @@
+2025-05-27 项目更新 Google Auth 登录和 Supabase数据库连接，并将Google授权信息存储到数据库中
+----
+
 # 一、Demo演示地址
 
 [Demo](https://nextjsbase-i18n.vercel.app/)
@@ -17,6 +20,8 @@
 3、Google-Analytics 配置ID即可使用<br>
 4、canonical 一键配置即可使用<br>
 5、网站Title一键配置
+6、Google Auth 登录
+7、Supabase数据库支持
 
 
 # 三、好处： 
