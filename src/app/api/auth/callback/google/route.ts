@@ -92,7 +92,7 @@ export async function GET(request: NextRequest) {
 async function exchangeCodeForToken(code: string) {
   const tokenUrl = 'https://oauth2.googleapis.com/token';
   // 使用当前请求的源域名构建重定向 URI，而不是使用环境变量
-  const redirectUri = `${process.env.NODE_ENV === 'production' ? 'https://buzzcut.page' : 'http://localhost:3000'}/api/auth/callback/google`;
+  const redirectUri = `${process.env.NEXTAUTH_URL}/api/auth/callback/google`;
   
   const response = await fetch(tokenUrl, {
     method: 'POST',
