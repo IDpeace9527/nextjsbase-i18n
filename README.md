@@ -15,7 +15,7 @@
 # 二、功能包含：
 
 1、NextJS项目一键部署到vercel使用<br>
-2、多语言框架（用的是NextJS自带的多语言框架）<br>
+2、多语言框架（next-intl）<br>
 3、多语言框架翻译文件可以分成多个文件，方便管理并且加载性能更好<br>
 3、Google-Analytics 配置ID即可使用<br>
 4、canonical 一键配置即可使用<br>
