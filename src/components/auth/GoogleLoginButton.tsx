@@ -49,7 +49,7 @@ export function GoogleLoginButton() {
     };
   }, []);
 
-  // 在组件加载时检查 URL 参数，判断是否是从授权回调返回
+  // 在组件加载时检查 URL 参数，判断是否是从授权回调返回1
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const authSuccess = urlParams.get('auth_success');
