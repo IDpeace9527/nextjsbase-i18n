@@ -20,12 +20,18 @@ export default async function BaseLayout({children, locale}: Props) {
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+      <NextIntlClientProvider messages={messages}>
+          <div className="fixed top-0 left-0 right-0 z-50 bg-gray-800 border-b border-gray-700">
           <Navigation />
-          <main className="min-h-screen">
-            {children}
-          </main>
-          <Footer />
+          </div>
+            
+            <div className="flex-grow pt-14">
+              <main className="min-h-screen">
+                {children}
+              </main>
+              
+            </div>
+            <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
